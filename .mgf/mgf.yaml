@@ -1,0 +1,28 @@
+mgf_version: "1.0"
+
+authority:
+  mode: MGF-AUTHORITY-ALL
+  source: stc-intelligence-core
+  required: true
+
+repo:
+  name: multi-cloud-ec2-mastery
+  type: lab
+  owner: SecureTheCloud
+  canonical: false
+
+classification:
+  domains:
+    - identity
+    - zero_trust
+  clouds:
+    - aws
+  use_cases:
+    - student
+    - interview
+    - consultant
+
+evidence:
+  labs: true
+  diagrams: true
+  deployments: true
